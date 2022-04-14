@@ -33,6 +33,7 @@ jobs:
           docker tag demonstration:0.0.1-SNAPSHOT ghcr.io/bodnard/demonstration:${{ env.version }}
           docker push ghcr.io/bodnard/demonstration:${{ env.version }}
 
+
 #   image_deplyoment:
 #     runs-on: ubuntu-latest
 #     needs: [ image_push ]
