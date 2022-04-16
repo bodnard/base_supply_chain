@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout detached detached HEAD
+      - name: Checkout detached HEAD
         uses: actions/checkout@v2
 
       - name: Set up JDK 17
